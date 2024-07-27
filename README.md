@@ -1,3 +1,34 @@
+# PaperBell
+一个all in one 的论文+项目管理库
+
+### 配置
+1. github下载+打开
+2. fix一些dir错误：
+		- music（插件设置）
+		- banner（正文脚本）
+3.  建立布局，设置保存为homepage
+4. 配置Zotero联动
+	1. 配置[ZotLit](https://zotlit.aidenlx.top/zh-CN/getting-started/install/zotero)，注意Zotero data dir设置为数据库存储位置，而非论文pdf存储位置
+	2. zotero安装zotlit插件
+5. 配置参考文献
+	1. 安装pandoc
+	2. 配置pandoc路径
+	3. zotero 安装better-bibtex, 设置导出bib文件（保持更新），并在pandoc reference list 插件中相应设置路径
+6. 修改项目模板为更适合日常管理习惯的方式
+7. 配置日记路径
+8. 修改日记、周记模板[GoblinCwl/Obsidian-Template-DynamicSchedule: Obsidian动态日程模板 (github.com)](https://github.com/GoblinCwl/Obsidian-Template-DynamicSchedule)
+9. 修复bug：
+	1. concept 卡模板中改为aliases
+
+### 进度
+- [x] 项目管理
+- [x] 日常记录
+- [x] 文献关联
+
+
+HomePage: [Rainbell129/Obsidian-Homepage: A dashboard for your obsidian vault. (github.com)](https://github.com/Rainbell129/Obsidian-Homepage)
+
+-------------------------------------------------
 <div align="center"><img src="https://firebasestorage.googleapis.com/v0/b/swimmio.appspot.com/o/repositories%2FZ2l0aHViJTNBJTNBUGFwZXJCZWxsJTNBJTNBU29uZ3NoR2Vv%2Fec47d268-80c8-4df5-bf62-1c37a2f43a3b.gif?alt=media&token=bb7fe1a8-5a44-4364-9032-fe20a563bad4" style="width:'100%'"/></div>
 
 `PaperBell`: 用 Obsidian 优雅地积累学术笔记。
