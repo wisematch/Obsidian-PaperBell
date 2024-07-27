@@ -7,7 +7,7 @@
   "cyan": "Task",
   "blue": "Definition",
   "navy": "Definition",
-  "purple": "Question",
+  "purple": "Task",
   "brown": "Source",
   "magenta": "To Do",
 };
